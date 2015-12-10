@@ -5,13 +5,15 @@
         
         <title>Brendan Nelson | Downtown Fresno Revitilization</title>
         <link href="css/main.css" rel="stylesheet" type="text/css"/>
+        <link href="css/mobile-menu.css" rel="stylesheet"  type="text/css" />
+        <!--<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>-->
         <link href="css/font-awesome.css" rel="stylesheet" type="text/css"/>
 
         <meta charset="UTF-8" />
         <meta name="description" content="Welcome to my first official website. I am a student coder." />
-        <meta name="keywords" content="brendan, nelson, student coder, first official website, fresno, clovis, brendan nelson fresno" />
+        <meta name="keywords" content="brendans, nelson, student coder, first official website, fresno, clovis, brendan nelson fresno" />
         <meta name="author" content="Brendan Nelson" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0; maximum-scale=1.0; user-scalable=no;">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=no;">
 
     </head>
     <body>
@@ -23,8 +25,10 @@
                     
                     <h1><a href="index.html" id="logo">Brendan Nelson</a></h1>
                 </figure>
-                <nav id="menu">
-                    <ul>
+                <nav id="menu" class="mobile">
+                    <!--<a></a>-->
+                    <input type="checkbox" id="nav"/><label for="nav">MENU</label>
+                    <ul id="mobileMenu">
                         <li class="currentPage"><a href="index.html" title="Home Page" >Home</a></li>
                         <li><a href="about.html" title="About Page" >About</a></li>
                         <li><a href="typing.html" title="Typing Page" >Typing</a></li>
@@ -45,10 +49,10 @@
             
             <!-- COLUMN A STARTS HERE -->
             <article class="columnA">
-                <h2>Paintball</h2>
+                <h2>Vehicles</h2>
                 <figure class="likeImage">
                     <a href="http://www.paintballaccess.com" target="_blank" class="image image-full"><img src="images/dynasty-breakout.jpg" title="San Diego Dynasty Breakout" alt="San Diego Dynasty Breakout"/></a>
-                    <span>Deportes</span>
+                    <span>Be</span>
                 </figure>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores fugit veniam aliquid. Ullam, ipsum, eligendi, accusamus recusandae velit ad repellendus facere sunt esse eius tenetur perferendis necessitatibus ab ratione numquam.</p>
                 <a href="https://www.empirepaintball.com" class="button" target="_blank" title="Empire Paintball Button">Empire Paintball</a>
@@ -58,10 +62,10 @@
             
             <!-- COLUMN B STARTS HERE -->
             <article class="columnB">
-                <h2>Food</h2>
+                <h2>Benefits</h2>
                 <figure class="likeImage">
                     <a href="https://www.chipotle.com" target="_blank" class="image image-full"><img src="images/chipotle-burrito.jpg" title="Chipotle Burrito" alt="Chipotle Burrito"/></a>
-                    <span>Comida</span>
+                    <span>The</span>
                 </figure>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, nisi, odio iusto ipsam at excepturi blanditiis repellat dolore perferendis ducimus doloribus amet beatae voluptates consectetur similique quidem possimus impedit laboriosam?</p>
                 <a href="https://www.ansgear.com" class="button" target="_blank" title="ANSGear Button">ANSGear</a>
@@ -71,10 +75,10 @@
                 
             <!-- COLUMN C STARTS HERE -->
                  <article class="columnC">
-                <h2>Music</h2>
+                <h2>Economy</h2>
                 <figure class="likeImage">
                     <a href="http://www.porterrobinson.com" target="_blank" class="image image-full"><img src="images/porter-robinson.jpg" title="Porter Robinson Worlds Album" alt="Porter Robinson Worlds Album"/></a>
-                    <span>Musica</span>
+                    <span>Change</span>
                 </figure>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, sit, sed, delectus, eos architecto optio eaque corporis sint nihil itaque fugiat laboriosam ab perferendis possimus mollitia atque minus eligendi odit! ColumnC ColumnC ColumnC</p>
                 <a href="https://www.planeteclipse.com" class="button" target="_blank" title="Planet Eclipse Button">Planet Eclipse</a>
@@ -95,7 +99,7 @@
                 </figure>
             </aside>
             <article class="alignRight">
-                <h2>Life</h2>
+                <h2>Our Mission</h2>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
                 sed diam nonummy nibh euismod tincidunt ut laoreet dolore
                 magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
