@@ -74,4 +74,35 @@
         z-index:9999;
         position:relative;
     }
+    
+    .mre-mrt {
+        width:100%;
+    }
+    
+    .mobileAbout {
+        width:auto;
+        display:block;
+        margin:25px 0px;
+    }
+    
+    .mobileAside {
+        width:100%;
+        display:block;
+    }
+    
+    .mainWidth {
+        width:95%;
+        padding:20px;
+    }
+    
+    .columnA, .columnB, .columnC {
+        width:auto;
+        margin:1% auto;
+    }
+    
+    .columnA h2, .columnB h2, .columnC h2 {
+        font-size:3em;
+    }
+    
+    
 }
