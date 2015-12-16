@@ -492,6 +492,26 @@ textarea {
     margin-left:50px;
 }
 
+.galleryImages {
+    background-color:#e0f7e0;
+    padding:10px;
+    width:280px;
+    float:left;
+    margin:5px;
+    border-radius:6px;
+    text-align:center;
+}
+
+.galleryImages img {
+    width:100%;
+    margin:0px auto;
+}
+
+.figNewton {
+    
+}
+
+
 /*===================== QUERY - 1024px =======================================*/
 
 @media screen and (max-width: 1024px) {
